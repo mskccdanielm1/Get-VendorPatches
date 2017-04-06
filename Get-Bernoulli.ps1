@@ -25,7 +25,7 @@ foreach ($link in $links) {
     # Configure output, add results to array.  
     $Output = ($file.ToString()).Replace("xlsx","txt")
     $Output = "Security_QNumber$Output"
-    $Output = "H:\BladeLogic\VENDOR_APPROVED_PATCH_LIST\Bernouli\$Output"
+    $Output = "H:\BladeLogic\VENDOR_APPROVED_PATCH_LIST\Bernoulli\$Output"
     $Results += $QNum
     }
 
